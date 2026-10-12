@@ -1,0 +1,5 @@
+code,strategy,trainableParams,totalParams,learningRates,epochsRun,bestEpoch,trainTime_s,trainAcc,valAcc,overfitGap,testAcc,testMacroF1
+B1,From Scratch,11181642,11181642,0.001,5,5,79.5,0.2395,0.2054,0.0342,0.2383,0.2402
+B2,Feature Extraction,5130,11181642,0.001,5,5,75.3,0.9423,0.936,0.0063,0.9195,0.9193
+B3,Fine Tuning,8398858,11181642,0.0001 / 0.001,5,2,73.8,0.974,0.9596,0.0144,0.9329,0.9327
+B4,Fine Tuning (No Augmentation),8398858,11181642,0.0001 / 0.001,5,4,52.8,1,0.9495,0.0505,0.943,0.9431
